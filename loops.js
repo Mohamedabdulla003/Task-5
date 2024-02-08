@@ -17,56 +17,56 @@ let resume = {
         }
       },
     
-    //    "work": [
-    //     {
-    //       "company": "TVS comapany",
-    //       "position": "qulity audit",
-    //       "website": "www.Tvsemployer.com",
-    //       "startDate": " 15.5.2021",
-    //       "endDate": "14.5.2023",
-    //       "summary": " I am  Quality audit in armature line",
-    //       "highlights":["working with consenration,i am best quality employer in line"
-    //       ]
-    //     }
-    //   ],
+       "work": [
+        {
+          "company": "TVS comapany",
+          "position": "qulity audit",
+          "website": "www.Tvsemployer.com",
+          "startDate": " 15.5.2021",
+          "endDate": "14.5.2023",
+          "summary": " I am  Quality audit in armature line",
+          "highlights":["working with consenration,i am best quality employer in line"
+          ]
+        }
+      ],
     
-    //   "education": [
-    //     {
-    //       "institution": "arasu higherser scondary school",
-    //       "area": "chennai",
-    //       "studyType": "dayscolour",
-    //       "startDate": "14.4.2016",
-    //       "endDate": "28.3.2018",
-    //       "gpa": "",
-    //       "courses": [
-    //         "computer science"
-    //       ]
-    //     }
-    //   ],
-    //   "skills": [
-    //     {
-    //       "name": "Programming Languages",
-    //       "level": "",
-    //       "keywords": [
-    //         " Java', 'C++', etc"
-    //       ]
-    //     }
-    //   ],
-    //   "languages": [
-    //     {
-    //       "language": "Tamil,English",
-    //       "fluency": "Tamil"
-    //     }
-    //   ],
-    //   "interests": [
-    //     {
-    //       "name": "Sports,watching tv,",
-    //       "keywords": [
-    //         " 'Cricket', 'Football', 'Golf'"
-    //       ]
-    //     }
-    //   ]
-    // };
+      "education": [
+        {
+          "institution": "arasu higherser scondary school",
+          "area": "chennai",
+          "studyType": "dayscolour",
+          "startDate": "14.4.2016",
+          "endDate": "28.3.2018",
+          "gpa": "",
+          "courses": [
+            "computer science"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Programming Languages",
+          "level": "",
+          "keywords": [
+            " Java', 'C++', etc"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Tamil,English",
+          "fluency": "Tamil"
+        }
+      ],
+      "interests": [
+        {
+          "name": "Sports,watching tv,",
+          "keywords": [
+            " 'Cricket', 'Football', 'Golf'"
+          ]
+        }
+      ]
+    };
 
     // // for loops:
     let entries = Object.entries(resume);
@@ -76,18 +76,18 @@ let resume = {
     }
     
 // // for...in loop :
-// for (let key in resume) {
-//     console.log(key, ':', resume[key]);
-// }
+for (let key in resume) {
+    console.log(key, ':', resume[key]);
+}
 
 // for...of loops :
-// let entries = Object.entries(resume);
-// for(let entry of entries){
-//   console.log(entry[0],':',entry[1]);
-// }
+let entries = Object.entries(resume);
+for(let entry of entries){
+  console.log(entry[0],':',entry[1]);
+}
 
 // for...each loops :
-// let entries = Object.entries(resume);
-// entries.forEach( entry =>{
-//   console.log(entry[0],':',entry[1]);
-// });
+let entries = Object.entries(resume);
+entries.forEach( entry =>{
+  console.log(entry[0],':',entry[1]);
+});
